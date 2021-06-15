@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert' as convert;
 
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -37,9 +38,36 @@ class MyHomePage extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.only(top: 100.0),
+                  padding: EdgeInsets.only(top: 100.0),
                   child: Image(
                       image: AssetImage('graphics/Images/dumbellicon.png'))),
+              Container(
+                padding: EdgeInsets.only(top: 100.0),
+                child: Column(
+                  children: [
+                    OutlinedButton(
+                      onPressed: () {},
+                      child: Text("Login"),
+                      style: OutlinedButton.styleFrom(
+                        side: BorderSide(color: Colors.blue, width: 3),
+                        primary: Colors.black,
+                        backgroundColor: Colors.white,
+                        minimumSize: const Size(300, 40),
+                      ),
+                    ),
+                    OutlinedButton(
+                      onPressed: () {},
+                      child: Text("Register"),
+                      style: OutlinedButton.styleFrom(
+                        side: BorderSide(color: Colors.red, width: 3),
+                        primary: Colors.black,
+                        backgroundColor: Colors.white,
+                        minimumSize: const Size(300, 40),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             ],
           )),
     );

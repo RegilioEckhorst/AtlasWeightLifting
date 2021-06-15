@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "356101573191",
+    "project_id": "atlasweightlift",
+    "storage_bucket": "atlasweightlift.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356101573191:android:72e00f8f6ac57da86aff62",
+        "android_client_info": {
+          "package_name": "com.atlas.evolutions.atlas_weightlifting_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356101573191-73329skpvkdtpphldfcbcn0rofv08rnn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI-gAstlODOzBLeEZEOJdNU1LDQNHbwPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356101573191-73329skpvkdtpphldfcbcn0rofv08rnn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
