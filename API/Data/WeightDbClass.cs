@@ -55,7 +55,6 @@ namespace AtlasWeightApp.Data
                 new HasCategories { Id = 8, CategoriesId = 2, ExercisesId = 5 },
                 new HasCategories { Id = 9, CategoriesId = 3, ExercisesId = 5 },
                 new HasCategories { Id = 10, CategoriesId = 4, ExercisesId = 5 }
-
                 );
         }
 
